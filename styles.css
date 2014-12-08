@@ -1,0 +1,140 @@
+body
+{
+	font-family:Calibri;
+	margin:0px;
+	padding:0px;
+	background: white;
+}
+
+header
+{
+	width:99.8%;
+	margin-bottom: 3px;
+	height:70px;
+	background: #007A29;
+	border:1px black solid;
+}
+
+/*By using the ">", only h1's within our header will have this style*/
+header > h1	{
+	margin-left:13px;
+	color:black;
+}
+
+#navigation{
+	width: 99.7%;
+	background: #339933;
+	color: #000;
+	border: 2px black solid;
+	height: 30px;
+}
+
+nav{
+	width: 900px;
+	margin: 3px auto;
+	/*margin-left: -20px;*/
+	font-weight: bold;
+	color: #663366;
+	text-align: left;
+}
+
+nav > ul{
+	display: inline;
+	list-style: none;
+}
+
+nav > ul li{
+	display: inline;
+	padding: 0px 10px;
+}
+
+nav > ul li a{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: black;
+}
+
+nav > ul li a:hover, nav > ul li a:focus{
+	text-decoration: none;
+	text-shadow: 1px 1px 2px #777;
+}
+
+#content{
+	width: 900px;
+	margin: 10px auto 40px;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #99D699;
+	border: 3px solid #663366;
+	text-align: justify;
+	/*border-radius: 15px;*/
+}
+#content > h3, #content > p{
+	width: 830px;
+	margin: 15px auto;
+}
+#content > p{
+	text-indent: 40px;
+}
+#content > h3{
+	color: black;
+	text-shadow: 1px 1px 2px #FFF;
+}
+
+#admin_link {
+	float: right;
+	margin-top: -65px;
+	margin-right: 10px;
+	opacity: 0;
+}
+#admin_link:hover {
+	opacity: 1;
+	transition: opacity 0.7s ease;
+	-webkit-transition: opacity 0.7s ease;
+	-moz-transition: opacity 0.7s ease;
+	-o-transition: opacity 0.7s ease;
+	-ms-transition: opacity 0.7s ease;
+}
+#admin_link a{
+	color: black;
+}
+
+#create_page {
+	float: right;
+	margin: 0px auto;
+	margin-top: -50px;
+	padding: 5px;
+	border: 1px dotted black;
+}
+
+#footer {
+	border-top: 1px solid black;
+}
+
+/*textarea.tinymce {
+	width: 200px;
+	height: 200px;
+}*/
+
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+
+.delete, .inline {
+	display: inline-block;
+	margin-left: 1px;
+}
+.delete {
+	opacity: 0;
+}
+.delete:hover {
+	opacity: 1;
+	transition: opacity 0.7s ease;
+	-webkit-transition: opacity 0.7s ease;
+	-moz-transition: opacity 0.7s ease;
+	-o-transition: opacity 0.7s ease;
+	-ms-transition: opacity 0.7s ease;
+}
